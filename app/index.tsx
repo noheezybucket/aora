@@ -42,9 +42,10 @@ export default function Index() {
             title={"Continue with Email"}
             handlePress={() => router.push('/sign-in')}
             containerStyles={"w-full mt-7"}
+            textStyles={"fontex-bold text-lg"}
+            isLoading={false}
 
           />
-
         </View>
       </ScrollView>
 
