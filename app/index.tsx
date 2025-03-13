@@ -9,6 +9,8 @@ export default function Index() {
 
   const { isLoading, isLoggedIn } = useGlobalContext();
 
+  console.log(isLoggedIn);
+
   if (!isLoading && isLoggedIn) return <Redirect href="/home" />;
 
   return (
